@@ -9,21 +9,3 @@ h1 {
     font-size: 40px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
 }
-@keyframes color-change {
-    0% {
-      color: blue;
-    }
-  
-    50% {
-      color: red;
-    }
-  
-    100% {
-      color: blue;
-    }
-}
-
-h1 {
-    animation: color-change 3s infinite;
-}
-p:hover{animation: color-change 3s infinite;}
